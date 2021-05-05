@@ -1,0 +1,33 @@
+[tool.poetry]
+authors = ["ehco1996 <zh19960202@gmail.com>"]
+description = "A tool to help determine whether ip is in China"
+name = "ipicn"
+version = "2021.05.05"
+
+[tool.poetry.dependencies]
+geoip2 = "^4.1.0"
+python = "^3.7"
+requests = "^2.25.1"
+ipaddress = "^1.0.23"
+
+[tool.poetry.dev-dependencies]
+black = "^21.5b0"
+isort = "^5.8.0"
+pytest = "^5.2"
+ipython = "^7.23.0"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+include_trailing_comma = true
+line_length = 88
+multi_line_output = 3
+use_parentheses = true
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
