@@ -2,9 +2,9 @@
 
 A tool to help determine whether ip is in China.
 
-## explain the principle
+## Explain
 
-ipinc use GeoDatabase: `[GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN)` to find ip location.
+ipicn use GeoDatabase: `[GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN)` to find ip location.
 
 It only provide one api to judge you input ip/domain is in China.
 
